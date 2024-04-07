@@ -1,0 +1,51 @@
+.allday {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 224, 247);
+}
+.allday-subtitle {
+  font-size: 1.2rem;
+}
+.allday-card-container {
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  padding: 20px;
+}
+.allday-card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(91, 0, 114);
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgb(91, 0, 114);
+  background: linear-gradient(to bottom, rgb(91, 0, 114), #f48976);
+}
+.allday-card img {
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.allday-img-title {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.allday-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0;
+}
+.allday-price {
+  font-weight: bold;
+  margin-top: 0;
+}
